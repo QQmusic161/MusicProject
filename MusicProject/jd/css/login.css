@@ -1,0 +1,347 @@
+.w {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.q-link {
+    float: right;
+    position: relative;
+    top: 52px;
+}
+
+.q-link i {
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background-image: url("../images/q-icon.png");
+    vertical-align: middle;
+}
+
+#logo {
+    width: 300px;
+    height: 60px;
+    margin: 10px 0;
+    float: left;
+    position: relative;
+}
+
+#logo i {
+    display: block;
+    width: 110px;
+    height: 40px;
+    background-image: url("../images/l-icon.png");
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    clear: both;
+}
+
+.login-box {
+    background-color: #f859b6;
+}
+
+.tip-wrapper {
+    height: 38px;
+    background-color: #FFF8F0;
+}
+
+.tip-wrapper .content-wrapper {
+    line-height: 38px;
+    margin-left: 380px;
+}
+
+footer {
+    text-align: center;
+}
+
+#banner-img {
+    position: relative;
+    margin: auto;
+    background: url("../images/56888.jpg") center no-repeat;
+    height: 500px;
+    background-color: #17a4ae;
+    margin-bottom: 20px;
+
+}
+
+.links a {
+    padding-left: 10px;
+}
+
+.login-box {
+    height: 450px;
+    width: 330px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 15px;
+    right: 300px;
+
+}
+
+.login-box .tips-wrapper {
+    background-color: #FFF8F0;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+}
+
+.login-box .login-tab {
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    padding-left: 50px;
+}
+
+.login-box .login-tab-l {
+    float: left;
+}
+.login-box .login-tab-l a:hover {
+    text-decoration: none;
+}
+.login-box .login-tab-l a {
+    color: red;
+}
+
+.login-box .img-1 {
+    position: absolute;
+    left: 95px;
+}
+
+.login-box .img {
+    padding-top: 35px;
+}
+
+.login-box .img-2 {
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+.xz{
+    border: 1px solid #FFF8F0;
+}
+.de {
+    height: 220px;
+}
+.login{
+    display: none;
+    margin-bottom: 80px;
+}
+.login-box ul {
+    margin-left: 80px;
+}
+
+.login-box ul li {
+    float: left;
+    padding-left: 10px;
+}
+
+.login-box ul li a {
+    color: red;
+}
+
+.login-box ul:last-child {
+    height: 10px;
+    color: #999;
+    /*float: left;*/
+  margin-left: 25px;
+    padding-top: 30px;
+}
+.login-box ul:last-child li{
+    padding-left: 50px;
+}
+.login-box ul:last-child b {
+    position: absolute;
+    top: 340px;
+    display: block;
+    width: 18px;
+    height: 14px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.login-box ul:last-child .b1 {
+    position: absolute;
+    left: 45px;
+    background: url("../images/qr-coagent.png");
+    background-position: 1px;
+}
+
+.login-box ul:last-child .b2 {
+    position: absolute;
+    left: 125px;
+    background: url("../images/qr-coagent.png");
+    background-position: -25px;
+}
+
+.login-box ul:last-child .b3 {
+    position: absolute;
+    left:198px;
+    background: url("../images/qr-coagent.png") center no-repeat;
+    background-position: -53px;
+}
+
+.qq {
+    position: absolute;
+    right: 300px;
+    bottom: 35px;
+    height: 50px;
+    width: 330px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #999;
+}
+
+.qq ul li {
+    text-align: center;
+    line-height: 50px;
+    padding-left: 40px;
+    float: left;
+}
+.qq ul li div {
+    position: absolute;
+    right: 20px;
+    color: red;
+    font-size: 15px;
+}
+.q{
+    position: absolute;
+    top:16px;
+    left: 16px;
+    display: block;
+    float: left;
+    width: 20px;
+    height:18px;
+    background-image: url("../images/QQ-weixin.png");
+}
+.wx{
+    position: absolute;
+    top:16px;
+    left: 68px;
+    display: block;
+    float: left;
+    width: 20px;
+    height:18px;
+    background-image: url("../images/QQ-weixin.png");
+    background-position: 20px;
+}
+#usert,#passwordp{
+    line-height: 18px;
+    height: 18px;
+    padding: 10px 0 10px 50px;
+    width: 254px;
+    overflow: hidden;
+    font-size: 14px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.wj{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 260px;
+}
+.btn a{
+    display: block;
+    height: 30px;
+    background-color: red;
+    line-height: 30px;
+    text-align: center;
+    margin: 66px 20px;
+    color: white;
+    font-size: 18px;
+    font-family: 微软雅黑;
+}
+.btn a:hover{
+    text-decoration: none;
+}
+.user .usertu{
+    position: absolute;
+    top:128px;
+    width: 38px;
+    height: 39px;
+   border-right: 1px solid #999;
+    margin-left: 11px;
+    background: url("../images/pwd-icons-new.png") no-repeat;
+}
+.userdeep{
+    background:url("../images/pwd-icons-new.png");
+    background-position:0px -48px;
+}
+.password .ptu{
+    position: absolute;
+    top:199px;
+    width: 38px;
+    height: 39px;
+    border-right: 1px solid #999;
+    margin-left: 11px;
+    background: url("../images/pwd-icons-new.png");
+    background-position: 73px 0px ;
+}
+.pwddeep{
+    background: url("../images/pwd-icons-new.png");
+    background-position: 73px -48px ;
+}
+.deltext{
+    height: 18px;
+    width: 18px;
+    float: right;
+    background-image: url("../images/x.png");
+    background-repeat:no-repeat ;
+    display: none;
+}
+.user .deltext{
+    position:absolute;
+    top: 140px;
+    right: 14px;
+}
+.password .deltext{
+    position:absolute;
+    top: 210px;
+    right: 14px;
+}
+.login .prompt{
+     position: absolute;
+     top:100px;
+     left: 10px;
+     width: 306px;
+     height: 22px;
+     background-color: #ffebeb;
+     display: none;
+ }
+.login .prompt .jg{
+    float: left;
+    width: 20px;
+    height: 22px;
+    margin-left: 8px;
+    background-image: url("../images/pwd-icons-new.png");
+    background-position: -101px -45px;
+}
+.login .prompt span{
+    line-height: 22px;
+    padding-left: 15px;
+    color: red;
+}
+.identifying .ytext{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 168px;
+    height: 30px;
+}
+.identifying img{
+    width: 80px;
+    height: 33px;
+}
+.identifying a{
+    position: absolute;
+    top: 265px;
+    right: 20px;
+}
+.identifying{
+    display: none;
+}

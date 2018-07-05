@@ -1,0 +1,77 @@
+/*整个mv的轮廓*/
+#mv_box{
+    height: 660px;
+    background-color: #f6f6f6;
+    background: url("../images/bg_detail.jpg") 50% 0 repeat-x;
+}
+/*mv标题*/
+.index_hd h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+}
+/*mv核心的地方*/
+#mv_box .section_inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 660px;
+    position: relative;/*设置相对定位让子元素根据它来定位*/
+    overflow: hidden;
+}
+/*mv的类型*/
+.section_inner .mod_index_tab{
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 30px;
+}
+.section_inner .mod_index_tab a{
+    padding-left: 50px;
+    color: black;
+}
+/*更多的超链接*/
+.section_inner .index__more{
+    position: absolute;
+    right: 0px;
+    top: 116px;
+    text-decoration: none;
+    color: black;
+}
+/*放置mv的块*/
+.mod_mv .slide__list{
+    position: relative;
+    height: 465px;
+    font-size: 0;
+    background-color: cornflowerblue;
+}
+/*ul*/
+.mv_list__list{
+    display: inline-block;
+    width: 1200px;
+    margin-right: 0;
+    font-size: 14px;
+    margin-top: 35px;
+}
+.mv_list__singer{
+    height: 24px;
+}
+.mv_list__item{
+    float: left;
+    width: 230px;
+    /*padding-bottom: 35px;*/
+    margin-right: 10px;
+    /*margin-left: 140px;*/
+    overflow: hidden;
+    background-color: red;
+}
+/*图片*/
+.mv_list__pic{
+    width: 225px;
+    height: 121px;
+}
+.mv_list__title {
+    font-weight: 400;
+    font-size: 14px;
+    /*height: 20px;*/
+}
+
+

@@ -1,0 +1,148 @@
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, lengend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    font-family:"微软雅黑";
+}
+ul li {
+    list-style-type: none;/*所有的无序列表去掉小黑点*/
+}
+a{
+    text-decoration: none;/*所有的超链接没有下划线*/
+}
+.tou{
+    height: 142px;
+    background-color: aqua;
+    width: 100%;
+}
+#taogelist_box{
+    height: 530px;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+/*整个尾部div*/
+.footer {
+    height: 580px;
+    background-color: #333333;
+    width: 100%;
+    /*position: absolute;*/
+    overflow: hidden;
+    /*bottom: 0px;*/
+}
+.footer a {
+    color: #999;
+    text-decoration: none; /*去掉超链接的下划线*/
+    font-size: 14px;
+}
+.footer h3 {
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 0 46px;
+}
+.section_inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative; /*设置相对定位让子元素根据它来定位*/
+}
+.footer_info {
+    overflow: hidden;
+    border-bottom: 1px solid #353535;
+    position: relative;
+    padding-bottom: 45px;
+}
+.footer_download {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+}
+.footer_download h3 {
+    margin-left: 35px;
+}
+.footer_download a {
+    line-height: 35px;
+}
+.footer_download li {
+    float: left;
+    padding-left: 40px;
+    text-align: center;
+}
+/*特色产品部分*/
+.footer_product {
+    position: absolute;
+    top: 85px;
+    left: 490px;
+}
+.footer_product h3 {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+.footer_product li {
+    float: left;
+    padding-left: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+/*.footer_product li{*/
+/*float: left;*/
+/*padding-left: 0px;*/
+/*text-align: center;*/
+/*}*/
+/*合作链接部分*/
+.footer_link {
+    position: absolute;
+    right: 0px;
+    top: 88px;
+    width: 350px;
+}
+.footer_link ul li {
+    float: left;
+    padding-left: 2px;
+    min-width: 100px; /*最小的宽度*/
+    margin-bottom: 12px;
+}
+/*开放平台部分*/
+.footer_platform {
+    margin: 300px 0 0 30px;
+}
+.footer_platform ul li {
+    float: left;
+    min-width: 100px;
+    margin: 0 5px 12px 0;
+    text-indent: 25px;
+}
+.footer_platform h3 {
+    margin-left: 25px;
+}
+/*超链接部分*/
+.footer_copyright {
+    text-align: center;
+    line-height: 28px;
+    padding: 60px 0;
+    position: absolute;
+    top: 400px;
+    left: 330px;
+}
+.footer_copyright a, p {
+    color: #999;
+    text-decoration: none; /*去掉超链接的下划线*/
+    font-size: 12px;
+}
+/*反馈*/
+.feedback {
+    margin: 0px 0px 10px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+}
